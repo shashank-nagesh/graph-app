@@ -19,7 +19,7 @@ function BGraph(){
                 <BarChart width={1000} height={300} data={data}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
-                <YAxis strokeWidth={2}/>
+                <YAxis strokeWidth={3}/>
                 <Tooltip />
                 <Legend />
                 <Bar dataKey="Trp_in_2021" fill="#8884d8" />
